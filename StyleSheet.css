@@ -1,0 +1,552 @@
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #117243;
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+}
+
+#logo {
+	vertical-align:middle;
+}
+.navbar-brand span {
+	font-size:1.3rem;
+	line-height:1.2;
+	font-weight: 200;
+	display:inline-block;
+	vertical-align:middle;
+	padding:0 0 0 5px;
+	color: white;
+}
+.navbar-brand b {
+	display:block;
+	font-size:69%;
+	line-height:1;
+	color: white;
+}
+.navbar-nav {
+	margin-left:auto;
+	color: white;
+}
+
+article.article1 {
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 13%;
+  background-color: #FFFFFF;
+}
+
+article.article2 {
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 70%;
+  background-color: #FFFFFF;
+}
+
+article.article3 {
+  float: right;
+  padding-left:10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 17%;
+  background-color: #FFFFFF;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#page-container {
+  position: relative;
+  min-height: 120vh;
+}
+
+#content-wrap {
+  padding-bottom: 12.5rem;    /* Footer height */
+}
+
+/* Style the footer */
+#footer_all {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #535353;
+  padding: 10px;
+  text-align: center;
+  color: #D5D5D5;
+  font-size:11px;
+  height: 12.5rem;
+}
+
+/* Style the helper tables above main Table */
+table.table0 {
+    font-family: arial, sans-serif;
+    font-size:12px;
+    border-collapse: collapse;
+    border: 1px solid #D5D5D5;
+    margin-bottom: 0px;
+    width: 100%;
+    #margin: 5px;
+}
+
+table.table0 td {
+
+    text-align: center;
+    padding: 4px;
+
+}
+
+table.table0 td2 {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+}
+
+table.table0 th {
+  background-color: #116315;
+
+  cursor: pointer;
+  padding: 8px;
+  font-size:11px;
+  color: white;
+}
+
+table.table0 tr:nth-child(even) {
+  background-color: #F2F2E5;
+}
+
+
+/* Style the main Table */
+table.table1 {
+    font-family: arial, sans-serif;
+    font-size:12px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    width: 100%;
+    #margin: 5px;
+}
+
+table.table1 td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 4px;
+}
+
+table.table1 td2 {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+}
+
+table.table1 th {
+  background-color: #116315;
+  border: 1px solid #D5D5D5;
+  padding: 8px;
+  font-size:11px;
+  color: white;
+}
+
+table.table1 tr:nth-child(even) {
+  background-color: #F2F2E5;
+}
+
+/* Style the league info table */
+table.table2 {
+    font-family: arial, sans-serif;
+    font-size:11px;
+    border-collapse: collapse;
+    border: 1px solid #D5D5D5;
+    padding-bottom: 10px;
+}
+
+table.table2 td {
+    border: 1px solid #D5D5D5;
+    text-align: left;
+    padding: 4px;
+}
+
+table.table2 td2 {
+    border: 1px solid #D5D5D5;
+    text-align: left;
+    padding: 4px;
+}
+
+table.table2 th {
+  background-color: #8CBA51;
+  padding: 8px;
+  font-size:12px;
+  color: black;
+}
+
+.league_list {
+    list-style:none;
+    font-size: 14px;
+    background-color: #F1F2F2;
+    border: 1px solid #D5D5D5;
+    padding: 0;
+    margin: 0px 10px 0px 0px;
+}
+
+.league_list_header {
+    list-style:none;
+    font-size: 12px;
+    border: 1px solid #D5D5D5;
+    padding: 3px;
+    margin: 0px 10px 0px 0px;
+    background-color: #8CBA51;
+    color: white;
+    min-height:22px;
+    line-height: 22px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+/* Create Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.3%;
+  background-color:#535353
+  <!--padding: 10px;-->
+  <!--height: 100px; /* Should be removed. Only for demonstration */-->
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Define separate colour for table columns */
+.grey {
+  background-color: #535353;
+}
+.gold {
+  background-color: #F4EDB2;
+}
+.green {
+  background-color: #AEE8E4;
+}
+.redish {
+  background-color: #F6DDDF;
+}
+
+.datebtn1{
+    height:30px;
+    cursor: pointer;
+    background-color: #EEEDEA;
+    margin: 1px 2px;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    float:left;
+    font-size:11px;
+    color: white;
+}
+.datebtn2{
+    height:30px;
+    cursor: pointer;
+    background-color: #EEEDEA;
+    margin: auto;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    font-size:13px;
+    font-weight: bold;
+    color: white;
+}
+.datebtn3{
+    height:30px;
+    cursor: pointer;
+    background-color: #EEEDEA;
+    margin: 1px 2px;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    float:right;
+    font-size:11px;
+    color: white;
+}
+.datebtn:focus {
+    height:50px;
+    width:50px;
+    cursor: pointer;
+    background-color: #4A586E;
+    margin: 2px 4px;
+    color: white;
+    font-size:12px;
+    }
+
+.datebtn1:hover {
+  background-color: inherit;
+  color: #D5D5D5;
+  font-size:11px;
+}
+
+.datebtn2:hover {
+  background-color: inherit;
+  color: #D5D5D5;
+  font-size:13px;
+}
+
+.datebtn3:hover {
+  background-color: inherit;
+  color: #D5D5D5;
+  font-size:11px;
+}
+
+.league_btn {
+  border: none;
+  background-color: inherit;
+  padding: 3px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline-block;
+  color: #2F3640;
+}
+
+.league_btn:hover {
+    color: #1E3C00;
+    font-weight: bold;
+    }
+
+a {
+    color: inherit;
+}
+
+figure {
+    display: inline-block;
+    margin: 8px 20px ; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+    font-size:10px;
+    color: #808285;
+}
+
+date_arrow {
+  border: solid #808285;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-right:3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+/* The alert message box */
+.alert {
+  padding: 10px;
+  background-color: #FFC11E; /* Red */
+  font-size: 14px;
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 18px;
+  line-height: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+a.specialeffects {
+    font-size:12px;
+    text-decoration:none;
+}
+
+a.specialeffects:hover {
+  color: black ;
+}
+
+.teamsearch{
+  width: 100%;
+  display: inline-block; /* <--- Here the change */
+}
+
+#content-desktop {display: block;}
+#content-desktop2 {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-desktop2 {display: none;}
+#content-mobile {display: block;}
+
+article.article2 {
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+}
+
+
+.flag-icon-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+}
+.flag-icon:hover {
+cursor: help;
+}
+.flag-icon:before {
+  content: "\00a0";
+}
+.flag-icon.flag-icon-squared {
+  width: 1em;
+}
+
+.flag-icon-gr {
+  background-image: url("flags/4x3/gr.svg");
+}
+.flag-icon-gr.flag-icon-squared {
+  background-image: url("flags/1x1/gr.svg");
+}
+.flag-icon-de {
+  background-image: url("flags/4x3/de.svg");
+}
+.flag-icon-de.flag-icon-squared {
+  background-image: url("flags/1x1/de.svg");
+}
+.flag-icon-at {
+  background-image: url("flags/4x3/at.svg");
+}
+.flag-icon-at.flag-icon-squared {
+  background-image: url("flags/1x1/at.svg");
+}
+.flag-icon-be {
+  background-image: url("flags/4x3/be.svg");
+}
+.flag-icon-be.flag-icon-squared {
+  background-image: url("flags/1x1/be.svg");
+}
+.flag-icon-dk {
+  background-image: url("flags/4x3/dk.svg");
+}
+.flag-icon-dk.flag-icon-squared {
+  background-image: url("flags/1x1/dk.svg");
+}
+.flag-icon-es {
+  background-image: url("flags/4x3/es.svg");
+}
+.flag-icon-es.flag-icon-squared {
+  background-image: url("flags/1x1/es.svg");
+}
+.flag-icon-fr {
+  background-image: url("flags/4x3/fr.svg");
+}
+.flag-icon-fr.flag-icon-squared {
+  background-image: url("flags/1x1/fr.svg");
+}
+.flag-icon-gb {
+  background-image: url("flags/4x3/gb.svg");
+}
+.flag-icon-gb.flag-icon-squared {
+  background-image: url("flags/1x1/gb.svg");
+}
+.flag-icon-it {
+  background-image: url("flags/4x3/it.svg");
+}
+.flag-icon-it.flag-icon-squared {
+  background-image: url("flags/1x1/it.svg");
+}
+.flag-icon-nl {
+  background-image: url("flags/4x3/nl.svg");
+}
+.flag-icon-nl.flag-icon-squared {
+  background-image: url("flags/1x1/nl.svg");
+}
+.flag-icon-pt {
+  background-image: url("flags/4x3/pt.svg");
+}
+.flag-icon-pt.flag-icon-squared {
+  background-image: url("flags/1x1/pt.svg");
+}
+.flag-icon-ua {
+  background-image: url("flags/4x3/ua.svg");
+}
+.flag-icon-ua.flag-icon-squared {
+  background-image: url("flags/1x1/ua.svg");
+}
+.flag-icon-gb-sct {
+  background-image: url("flags/4x3/gb-sct.svg");
+}
+.flag-icon-gb-sct.flag-icon-squared {
+  background-image: url("flags/1x1/gb-sct.svg");
+}
+.flag-icon-gb-eng {
+  background-image: url("flags/4x3/gb-eng.svg");
+}
+.flag-icon-gb-eng.flag-icon-squared {
+  background-image: url("flags/1x1/gb-eng.svg");
+}
+.flag-icon-se {
+  background-image: url("flags/4x3/se.svg");
+}
+.flag-icon-se.flag-icon-squared {
+  background-image: url("flags/1x1/se.svg");
+}
+.flag-icon-tr {
+  background-image: url("flags/4x3/tr.svg");
+}
+.flag-icon-tr.flag-icon-squared {
+  background-image: url("flags/1x1/tr.svg");
+}
+.flag-icon-no {
+  background-image: url('flags/4x3/no.svg');
+}
+.flag-icon-no.flag-icon-squared {
+  background-image: url('flags/1x1/no.svg');
+}

@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Betswithbots uses state-of-the-art Machine Learning and Artificial Intelligence
+    algorithms to perform football game predictions">
+    <meta name="keywords" content="football predictions, soccer predictions, artificial intelligence, machine learning,
+    neural networks, advanced analytics, mathematical models, betswithbots, standings, fixtures, football tips,
+    football analysis, football match forecast">
+    <meta name="robots" content="index,follow">
+    <title>BetswithBots: Football predictions using Artificial Intelligence</title>
+    <link rel="shortcut icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="/static/StyleSheet.css">
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-63657667-3');
+  
+</head>
+
+<header>
+    <nav class="navbar">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+      <!-- Brand -->
+      <a class="navbar-brand" href="/">
+          <img id="logo" alt="Logo" src="/static/logo.png" width="60" height="40">
+          <span>Football Predictions<b>Using Artificial Intelligence</b></span> </a>
+    </div>
+    </nav>
+</header>
+
+<body>
+<div id="page-container">
+    <div id="content-wrap">
+        <div style="background-color:#939598; margin: auto; padding: 2px; color: white;">
+            <a class="specialeffects" style="margin-left: 1em;" href="/">A.I. Predictions</a>
+            <a class="specialeffects" style="margin-left: 0.5em;"href="livescore_page">Live Scores</a>
+            <a class="specialeffects" style="margin-left: 0.5em;"href="about_page">How it works</a>
+            <a class="specialeffects" style="margin-left: 0.5em;"href="contact_page">Contact</a>
+        </div>
+        <section>
+            <div id="content-desktop">
+          <article class="article1">
+                <ul class="league_list_header">League Standings
+                </ul>
+                <ul class="league_list">
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="bundesliga_info">Bundesliga
+                        </button>
+                      </form>
+                  </li>
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="premierleague_uk_info">Premier League (UK)
+                        </button>
+                      </form>
+                  </li>
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="championship_info">Championship
+                        </button>
+                      </form>
+                  </li>
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="superleague_info">Super League
+                        </button>
+                      </form>
+                  </li>
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="premierleague_ukr_info">Premier League (Ukr)
+                        </button>
+                      </form>
+                  </li>
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="superliga_info">Superliga
+                        </button>
+                      </form>
+                  </li>
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="premiership_info">Premiership
+                        </button>
+                      </form>
+                  </li>
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="laliga_info">La Liga
+                        </button>
+                      </form>
+                  </li>
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="primeiraliga_info">Primeira Liga
+                        </button>
+                      </form>
+                  </li>
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="ligue1_info">Ligue 1
+                        </button>
+                      </form>
+                  </li>
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="seriea_info">Serie A
+                        </button>
+                      </form>
+                  </li>
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="eredivisie_info">Ere Divisie
+                        </button>
+                      </form>
+                  </li>
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="proleague_info">Pro League
+                        </button>
+                      </form>
+                  </li>
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="tipico_info">Tipico Bundesliga
+                        </button>
+                      </form>
+                  </li>
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="allsvenskan_info">Allsvenskan
+                        </button>
+                      </form>
+                  </li>
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="superlig_info">Super Lig
+                        </button>
+                      </form>
+                  </li>
+                  <li>
+                      <form action="league_info" method="post">
+                        <button class="league_btn" name="league_info" value="eliteserien_info">Eliteserien
+                        </button>
+                      </form>
+                  </li>
+                </ul>
+          </article>
+            </div>
+            <article class = "article2">
+<!--            <div class="alert">-->
+<!--                  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>-->
+<!--                  <strong>Warning!</strong> Due to the Covid-19 pandemic, most football matches have been postponed!-->
+<!--            </div>-->
+            <table class ="table0" id="dates_table" style="width:100%">
+            <colgroup>
+                <col class="grey" span="3"/>
+            </colgroup>
+            <tr>
+                <script type="text/javascript" src="/static/JavaScript.js"></script>
+                <td width = '25%'>
+                    <form action="date_select" method="post">
+                        <button class="datebtn1" name="date_select" value=yesterday>
+                            <date_arrow class="left"></date_arrow>
+                            <script type="text/javascript">document.write(yesterday)</script>
+                        </button>
+                    </form>
+                </td>
+                <td width = '50%'>
+                    <form action="date_select" method="post">
+                        <button class="datebtn2" name="date_select" value=today>
+                            <script type="text/javascript">document.write(today)</script>
+                        </button>
+                    </form>
+                </td>
+                <td width = '25%'>
+                    <form action="date_select" method="post">
+                        <button class="datebtn3" name="date_select" value=tomorrow>
+                            <script type="text/javascript">document.write(tomorrow)</script>
+                            <date_arrow class="right"></date_arrow>
+                        </button>
+                    </form>
+                </td>
+            </tr>
+            </table>
+            <table class ="table0" id="search_buttons" style="width:100%">
+              <tr>
+                  <td align="left" width = '55%'>
+                      Showing Predictions for:<br><font size="3"><b>Monday 2022-06-13</b></font>
+                  </td>
+                  <!--<td width = '10%'></td>-->
+                  <td width = '45%'>
+                      <script type="text/javascript" src="/static/JavaScript.js"></script>
+                      <input class ="teamsearch" type="text" id="myInput" onkeyup="SearchTeam()" placeholder="Search for teams..." title="Type in a name">
+                  </td>
+              </tr>
+            </table>
+            <table class ="table1" id="predictions_table" style="width:100%">
+                <tr>
+                    <th colspan="3">Match Info</th>
+                    <th colspan="3">Game Result Prob (%)</th>
+                    <th colspan="2">Under-Over Prob (%)</th>
+                    <th colspan="2">Goal-No Goal Prob (%)</th>
+                </tr>
+                <tr>
+                    <th>Lg</th>
+                    <th>UTC Time</th>
+                    <th>Home-Away</th>
+                    <th> 1 </th>
+                    <th> X </th>
+                    <th> 2 </th>
+                    <th> U </th>
+                    <th> O </th>
+                    <th> NG </th>
+                    <th> G </th>
+                </tr>
+                
+                
+                
+            </table>
+          </article>
+            <div id="content-desktop2">
+            <article class="article3">
+                 <!--start sw-rss-feed code-->
+                <script type="text/javascript">
+                <!--
+                rssfeed_url = new Array();
+                rssfeed_url[0]="https://www.soccernews.com/feed";
+                rssfeed_frame_width="100%";
+                rssfeed_frame_height="800";
+                rssfeed_scroll="on";
+                rssfeed_scroll_step="15";
+                rssfeed_scroll_bar="off";
+                rssfeed_target="_blank";
+                rssfeed_font_size="12";
+                rssfeed_font_face="";
+                rssfeed_border="on";
+                rssfeed_css_url="";
+                rssfeed_title="on";
+                rssfeed_title_name="";
+                rssfeed_title_bgcolor="#8CBA51";
+                rssfeed_title_color="#fff";
+                rssfeed_title_bgimage="";
+                rssfeed_footer="off";
+                rssfeed_footer_name="rss feed";
+                rssfeed_footer_bgcolor="#fff";
+                rssfeed_footer_color="#333";
+                rssfeed_footer_bgimage="";
+                rssfeed_item_title_length="50";
+                rssfeed_item_title_color="#666";
+                rssfeed_item_bgcolor="#F1F2F2";
+                rssfeed_item_bgimage="";
+                rssfeed_item_border_bottom="on";
+                rssfeed_item_source_icon="on";
+                rssfeed_item_date="off";
+                rssfeed_item_description="on";
+                rssfeed_item_description_length="60";
+                rssfeed_item_description_color="#666";
+                rssfeed_item_description_link_color="#333";
+                rssfeed_item_description_tag="off";
+                rssfeed_no_items="0";
+                rssfeed_cache = "abad31f833f61c43660e417b58ae7a2f";
+                //-->
+                </script>
+                <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script>
+                 <!--The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks.-->
+                <div style="color:#ccc;font-size:10px; text-align:right; width:150px;">powered by <a href="https://surfing-waves.com" rel="noopener" target="_blank" style="color:#ccc;">Surfing Waves</a></div>
+                 <!--end sw-rss-feed code-->
+                <a class="twitter-timeline" data-height="500" data-theme="light" href="https://twitter.com/BetswithB?ref_src=twsrc%5Etfw">Tweets by BetswithB</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </article>
+            </div>
+        </section>
+    </div>
+    <footer id = 'footer_all'>
+      <div class="column">
+        <p>Betswithbots Trademark</p>
+        <p>All rights Reserved</p>
+      </div>
+      <div class="column">
+        <p>Betswithbots uses Artificial Intelligence algorithms to provide you with football predictions</p>
+        <p>For information and educational purposes only - Betting is strongly discouraged</p>
+      </div>
+      <div class="column">
+        <ul style="list-style-type:none;">
+            <li><h2><b>Info</b></h2></li>
+            <li><a href="about_page">About Us</a></li>
+            <li><a href="contact_page">Contact Us</a></li>
+            <li><a href="privacy_policy">Privacy Policy</a></li>
+            <li><a href="terms_of_use">Terms of Use</a></li>
+        </ul>
+      </div>
+    </footer>
+</div>
+</body>
+
+</html>
